@@ -98,3 +98,7 @@ eval "$(rbenv init -)"
 #
 eval "$(pyenv init -)"
 
+
+source "$HOME/.bootstrap/env.sh"
+export PATH="/usr/local/opt/icu4c/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/sbin:$PATH"

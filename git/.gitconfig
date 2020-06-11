@@ -3,7 +3,7 @@
 	clean = git media clean %f
 	smudge = git media smudge %f
 [user]
-	email = georgedrummond@gmail.com
+	email = george.drummond@betterment.com
 	name = George Drummond
 	# signingkey = D8D158DD
 [push]
@@ -34,3 +34,5 @@
 # 	program = gpg2
 # [commit]
 # 	gpgsign = false
+[init]
+	templatedir = /Users/georgedrummond/.git-templates
